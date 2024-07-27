@@ -14,7 +14,7 @@ const routes: Routes = [
         component: LoginPageComponent,
       },
       {
-        path: 'new-Account',
+        path: 'new-account',
         component: RegisterPageComponent,
       },
       {
