@@ -21,7 +21,8 @@
       <mat-icon>menu</mat-icon>
     </button>
     <span class="spacer"></span>
-    <button mat-button>Logout</button>
+    <span>{{(currentUser)? currentUser.email: ''}}</span>
+    <button mat-button (click)="logout()">Logout</button>
   </mat-toolbar>
   <div class="container p-2">
     <router-outlet></router-outlet>
