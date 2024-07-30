@@ -1,0 +1,7 @@
+<h2 mat-dialog-title>Delete {{data.superhero}}</h2>
+<mat-dialog-content>This will delete  {{data.superhero}} superhero. Are you sure?</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="false">No, thanks</button>
+  <span class="spacer"></span>
+  <button mat-button color="primary" [mat-dialog-close]="true">Delete</button>
+</mat-dialog-actions>
