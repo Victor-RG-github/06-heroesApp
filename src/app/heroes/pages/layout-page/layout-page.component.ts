@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { AuthService } from '../../../auth/services/auth.service';
 import { Router } from '@angular/router';
-import { User } from '../../../auth/interfaces/User.interface';
+import { User } from '../../../auth/interfaces/user.interface';
 
 @Component({
   selector: 'app-layout-page',
